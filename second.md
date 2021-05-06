@@ -72,3 +72,90 @@
 <br> 2. List 내에 마크다운 요소를 포함하고 싶다면, 4개의 빈칸이나 tab 1개를 입력한 후 입력하면 됩니다.
 
 <br><br><hr/>
+
+## **7. Code**
+<br>
+
+사용법)
+
+단어나 문장을 코드라고 명시하고 싶다면, \` 기호로 감싸면 됩니다. 또한, 코드라고 명시하고 싶은데 그 속에 \`기호가 이미 존재할 때는 \``기호를 이용하여 감싸면 됩니다. 마지막으로 코드 블럭을 생성하고 싶다면, 그 코드 블럭의 모든 라인을 space 4개나 1개의 tab으로 들여 쓰면 됩니다.
+
+<br>
+
+- HTML과의 비교
+
+    | Markdown      | HTML |
+    | ----------- | ----------- |
+    | At the command prompt, type \`nano\`.      | At the command prompt, type \<code>nano\</code>.       |
+    | \`\`Use \`code\` in your Markdown file.\`\`       | \<code>Use \`code\` in your Markdown file.\</code>      |
+
+
+<br><br><hr/>
+
+## **8. Horizontal Rules**
+<br>
+
+사용법)
+
+수평줄의 입력을 위해서는, *, -, _ 중 한 개를 3번 이상 입력하면 됩니다. 이때 Heading의 표현 방법과 구분하기 위하여, 반드시 빈 줄을 위아래에 삽입해주도록 합시다.
+
+
+<br><br><hr/>
+
+## **9. Links**
+<br>
+
+사용법)
+
+만약 당신이 ARS1이라는 링크 제목을 통해 www.URL1.com이라는 주소로 연결하고 싶다면, 다음과 같이 사용하면 됩니다.
+
+    My favorite search engine is [ARS1](www.URL1.com).
+
+> My favorite search engine is [ARS1](www.URL1.com).
+
+<br>
+
+이때 사용자의 편의를 위해 주소 위에 설명을 추가해줄 수도 있습니다. 이 설명은 커서를 올릴 때 나타납니다.
+
+     My favorite search engine is [ARS1](www.URL1.com "Most Interesting Site Ever").
+
+> My favorite search engine is [ARS1](www.URL1.com "Most Interesting Site Ever").
+
+<br>
+
+또 다른 방법으로, URL이나 이메일을 바로 링크로 변환하고 싶다면, <> 기호를 이용할 수도 있습니다.
+
+    <https://www.naver.com/>
+
+> <https://www.naver.com/>
+
+<br>
+
+링크를 강조하기 위해서는, 위 Emphasis 문서에서 했듯이, * 기호로 링크 코드 전체를 감싸주면 됩니다.
+
+    I love supporting the **[EFF](https://eff.org)**.  
+    This is the *[Markdown Guide](https://www.markdownguide.org)*.  
+    See the section on [`code`](#code).  
+
+> I love supporting the **[EFF](https://eff.org)**.  
+    This is the *[Markdown Guide](https://www.markdownguide.org)*.  
+    See the section on [`code`](#code).  
+
+<br>
+
+또한, 소스 문서의 가독성을 높이기 위해서 참조형 링크를 생성하여 코드를 작성할 수도 있습니다. 참조형 링크는 글 내에 참조 링크를 삽입하고, 파일 다른 곳에 링크 정의와 참조되는 링크의 주소를 써놓을 수 있습니다.  
+먼저, 참조번호를 삽입해 봅시다.
+
+     [링크][1]
+
+그리고 다음과 같은 방법을 통해 참조되는 링크를 표기해놓을 수 있습니다. 
+
+     [1]: https://www.markdownguide.org/ "Markdown"
+
+참조번호와 참조되는 링크를 사용하면 [이런 식으로][1] 나타납니다.
+
+[1]: https://www.markdownguide.org/ "Markdown"
+
+우리는 이러한 방법을 통해 소스코드의 가독성을 높이고, 수정을 용이하게 만들 수 있습니다.
+
+<br><br><hr/>
