@@ -160,7 +160,7 @@
 
 <br><br><hr/>
 
-## **9. Images**
+## **10. Images**
 <br>
 
 사용법)
@@ -187,7 +187,7 @@
 
 <br><br><hr/>
 
-## **10. Escaping Characters**
+## **11. Escaping Characters**
 <br>
 
 사용법)
