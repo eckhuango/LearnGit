@@ -159,3 +159,61 @@
 우리는 이러한 방법을 통해 소스코드의 가독성을 높이고, 수정을 용이하게 만들 수 있습니다.
 
 <br><br><hr/>
+
+## **9. Images**
+<br>
+
+사용법)
+
+이미지 추가를 위해서는, 느낌표를 이용하여 다음과 같이 사용합니다. 미리보기 설명을 추가하고 싶다면, 파일 경로 뒤에 큰따옴표를 이용하여 표기해주면 됩니다.
+
+    형태)
+    ![텍스트](이미지파일경로.jpg)
+    ![텍스트](이미지파일URL)
+    [![텍스트](이미지URL이나 경로)](링크URL) // 이미지에 링크기능 추가
+
+    사용 예)  
+    ![Whether it's a dream or a real life](Starrain-typeA.jpg)
+
+
+예시)
+
+>![IMAGINE](Starrain-typeA.jpg "Whether it's a dream or a real life")
+
+
+
+
+
+
+<br><br><hr/>
+
+## **10. Escaping Characters**
+<br>
+
+사용법)
+
+때로는 마크다운 문서에서 문자 수정을 위해 사용되는 리터럴 문자를 있는 그대로 나타내기 위해서는 탈출 문자 '\\'를 이용해야 합니다. 마크다운에서 탈출 문자를 다음과 같은 문자들 앞에 삽입한다면 이 문자들을 결과화면에 나타낼 수 있습니다.
+
+
+| Character      | Name |
+| ----------- | ----------- |
+| \      | backslash       |
+| `      | backtick (see also escaping backticks in code)       |
+| *      | asterisk       |
+| _      | underscore       |
+| { }      | curly braces       |
+| [ ]      | brackets       |
+| < >      | angle brackets       |
+| ( )      | parentheses       |
+| #      | pound sign       |
+| +      | plus sign       |
+| -      | minus sign (hyphen)       |
+| .      | dot       |
+| !      | exclamation mark       |
+| |      | pipe (see also escaping pipe in tables)       |
+
+<br><hr/><br>
+
+추가) 마크다운은 마크다운 문서 내에서 HTML 문법을 사용하는 것을 허용합니다. 만약 당신이 HTML 문법을 사용하고 싶다면, 그렇게 하면 됩니다.
+
+GFM) <https://github.com/eckhuango/start_github/blob/main/README.md>
