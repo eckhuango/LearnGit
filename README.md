@@ -188,9 +188,9 @@ main branch에 new_idea branch를 병합하고 싶은 것이니, 먼저 checkout
 rebase는 merge 명령어와 유사하게 사용할 수 있다. 예를 들어 앞서 얘기했던, 새로운 내용 혹은 기능을 테스트해보는 경우나, main branch와 side branch에서 둘다 작업을 하다가 병합하는 경우 모두 가능하다. 하지만 rebase와 merge의 가장 큰 차이는 작업 과정의 수정이다. 앞서 봤듯이, merge는 두 갈래의 branch를 합친다. 하지만 rebase는 한 branch를 다른 branch의 끝에 이어준다. (commit의 base를 다시 잡아준다!)
 
 예를 들어, 이번에는 과제의 9. Images 에 대한 설명을 쓰고 나서, 나는 마땅한 이미지 파일이 컴퓨터에 없다는 것을 알았다. 그런데 동료가 적당한 사진을 추가한 파일을 image branch에 올려 주었다고 하자. 이 상태에서 merge를 해도 사진만 존재하는 파일과 설명만 존재하는 파일이 합쳐지긴 하지만, 설명을 먼저 쓰고 사진을 추가한 것처럼 보이기 위해서는 rebase를 쓰면 된다.   
-![git_rebase](https://user-images.githubusercontent.com/81168401/117405104-09af7f80-af46-11eb-8d8f-8aec6f2f6dc2.png)
+![git_rebase](https://user-images.githubusercontent.com/81168401/117405104-09af7f80-af46-11eb-8d8f-8aec6f2f6dc2.png)  
 
-![git_rebase2](https://user-images.githubusercontent.com/81168401/117405106-09af7f80-af46-11eb-829b-6eb6069f203a.png)
+![git_rebase2](https://user-images.githubusercontent.com/81168401/117405106-09af7f80-af46-11eb-829b-6eb6069f203a.png)  
 `git merge <branch명>` 과 같이 사용하면, 제어가 위치한 (image)브랜치가 <branch명> 브랜치를 가리키게 된다. 여기서는 checkout image, git base main 과 같이 사용하면 된다.
 <br><br>
 
