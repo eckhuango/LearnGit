@@ -19,7 +19,7 @@ Github repository URL : https://github.com/eckhuango/LearnGit
 
  이 명령어를 사용하여 프로젝트 폴더에 git폴더를 생성하여 git을 사용할 수 있게 한다. 이 명령어는 git을 사용할 수 있게 하는 명령어이다. 이 명령어를 사용하면 프로젝트 폴더 내에 .git이라는 숨겨진 폴더가 생성되게 된다. 이후 이 폴더를 기반으로 하여 git이 동작하게 된다.
 
- ![Git](image_git.png "프로젝트 폴더 내 숨김파일 git")
+![image_git](https://user-images.githubusercontent.com/81168401/117405084-06b48f00-af46-11eb-929c-d73474ed15f7.png)
 
 
 
