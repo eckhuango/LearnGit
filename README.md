@@ -131,11 +131,11 @@ Already up to date‘라는 말을 보아 밤 사이에 아무도 내 과제를 
 
 소프트웨어공학 과제 파일에 실수로 공학수학 방정식 내용을 덮어넣은 채로 commit해 버렸다고 가정하자. 이때는 git의 reset 명령어를 사용할 수 있다. ` git reset <옵션> <커밋 해쉬값> ` 은 컴퓨터의 시간 백업과 비슷하게 돌아가려는 버전의 커밋으로 되돌려 놓을 수 있다. reset에는 3가지 옵션(hard, soft, mixed)가 있는데 hard는 돌아가려는 이력 이후의 내용을 모두 지우는것, 나머지 2개는 일부 남아있는 것을 의미한다. 나는 공학수학의 내용은 모두 지우기 위해 --hard 옵션을 사용했다.  
 
-![git_reset_hard](https://user-images.githubusercontent.com/81168401/117405110-0ae0ac80-af46-11eb-96bf-78c942bac1bc.png) 
+![git_reset_hard](https://user-images.githubusercontent.com/81168401/117405110-0ae0ac80-af46-11eb-96bf-78c942bac1bc.png)  
 1일차에 완료한 Day1_fin 뒤에 Hermitian transpose라는 정체모를 커밋이 추가되어 있다.
-![git_reset_hard2](https://user-images.githubusercontent.com/81168401/117405112-0ae0ac80-af46-11eb-94dc-0f8bc7e59e27.png)  
+![git_reset_hard2](https://user-images.githubusercontent.com/81168401/117405112-0ae0ac80-af46-11eb-94dc-0f8bc7e59e27.png)   
 reset을 하자 제어가 Day1_fin으로 넘어왔다는 안내가 나온다.  
-![git_reset_hard3](https://user-images.githubusercontent.com/81168401/117405113-0b794300-af46-11eb-8904-dc30cc7bfca8.png)
+![git_reset_hard3](https://user-images.githubusercontent.com/81168401/117405113-0b794300-af46-11eb-8904-dc30cc7bfca8.png)  
 log를 확인해보면 정상적으로 파일이 해당 커밋의 상태로 되돌아갔음을 알 수 있다.
 <br><br><br>
 
