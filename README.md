@@ -175,7 +175,7 @@ main branch에 new_idea branch를 병합하고 싶은 것이니, 먼저 checkout
 **4일차 :**  
 오늘은 일이 생겨서 원래 작업하던 데스크톱이 아니라 노트북을 이용하여 과제를 이어서 해야 한다고 하자. 그런데 노트북에는 과제 자료가 따로 담겨있지 않다. 이때 clone 명령어를 사용하면 과제를 원격 저장소에서 받아와서 이용할 수 있다.
 
-![git_clone](https://user-images.githubusercontent.com/81168401/117405089-074d2580-af46-11eb-922c-8a4fa0689630.png)
+![git_clone](https://user-images.githubusercontent.com/81168401/117405089-074d2580-af46-11eb-922c-8a4fa0689630.png)   
 ![git_clone2](https://user-images.githubusercontent.com/81168401/117405090-07e5bc00-af46-11eb-9fe0-9ad12ce05c97.png) 
 
 노트북의 프로젝트 폴더에, Github에 push해놓은 자료들이 github library명으로 저장되어 있다. 내부를 확인해보면 first, second 파일 뿐만 아니라 log까지도 완벽하게 복사되었음을 알 수 있다. (git log명령어를 입력해보자.)  
