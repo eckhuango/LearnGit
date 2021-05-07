@@ -211,8 +211,8 @@ rebase는 merge 명령어와 유사하게 사용할 수 있다. 예를 들어 �
 | Git 명령어      | 사용 여부 |  Link  |
 | ----------- | ----------- | ------- |
 | add      | O       | [add](#-git-add)  |
-| branch      | O       | [branch](#-git-branch/checkout-branch명)
-| checkout      | O       |[checkout](#-git-branch/checkout-branch명)
+| branch      | O       | [branch](#-git-branchcheckout-branch명)
+| checkout      | O       |[checkout](#-git-branchcheckout-branch명)
 | clone      | O       |[clone](#-git-clone)
 | commit      | O       |[commit](#-git-commit)
 | config      | O       |[config](#-git-config)
