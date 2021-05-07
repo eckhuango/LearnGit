@@ -215,7 +215,7 @@ rebase는 merge 명령어와 유사하게 사용할 수 있다. 예를 들어 �
 | checkout      | O       |[checkout](#-$-git-branch/checkout-<branch명>)
 | clone      | O       |[clone](#-$-git-clone)
 | commit      | O       |[commit](#-$-git-commit)
-| config      | O       |[config](#-$-git-config)
+| config      | O       |[config](#-git-config)
 | init      | O       |[init](#-$-git-init)
 | log      | O       |[log](#-$-git-log)
 | merge      | O       |[merge](#-$-git-merge-<branch명>)
